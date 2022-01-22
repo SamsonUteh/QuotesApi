@@ -42,6 +42,7 @@ namespace QuotesApi.Controllers
             return Ok(quote);
         }
 
+
         // POST api/<QuotesController>
         [HttpPost]
         public IActionResult Post([FromBody] Quote quote)
